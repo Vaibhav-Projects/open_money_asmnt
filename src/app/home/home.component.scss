@@ -1,0 +1,364 @@
+ .container > .row {
+    margin: 60px 100px 60px 100px;
+  }
+
+ .circle {
+    position: absolute;
+    top: -227px;
+    margin-left: 475px;
+    height: 1130px;
+    right: 32px;
+    width: 860px;
+    transform: matrix(0.12, -0.99, 0.99, 0.12, 0, 0);
+    background: transparent url('../../assets/circle.svg') 0% 0% no-repeat padding-box;
+    opacity: 0.5;
+    z-index:-1;
+  }
+
+  .mt-63{
+      margin-top: 63px;
+      padding-left: 120px;
+      padding-right: 132px;
+    }
+  
+  .calculator-container{
+    position: relative;
+    left: 440px;
+  }
+
+  .calculator-container > .row{
+      width: 686px;
+  }
+
+ .blob {
+    position: absolute;
+    // left: -440px;
+    // bottom: 100px;
+    transform: translateX(-45%);
+    width: 571px;
+    height: 572px;
+    background: transparent url('../../assets/blob-small.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+ }
+ 
+ .simple {
+    width: 407px;
+    height: 98px;
+    margin-left: 88px;
+    background: transparent url('../../assets/We\ make\ it\ Super\ Sim.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+ }
+
+ .line {
+    width: 236px;
+    height: 8px;
+    margin-left: 88px;
+    background: #000000 0% 0% no-repeat padding-box;
+    border-radius: 13px;
+    opacity: 0.7;
+ }
+
+ .shakeHand {
+    position: absolute;
+    margin: 60px 60px 60px 60px;
+    width: 502px;
+    height: 265px;
+    background: transparent url('../../assets/collect_img-video.png') 0% 0% no-repeat padding-box;
+    border-radius: 13px;
+    opacity: 1;
+ }
+
+ .dots {
+    position: absolute;
+    margin: 300px 0 100px 100px;
+    background: transparent url('../../assets/accounting_dots.svg') 0% 0% no-repeat padding-box;
+    width: 430px;
+    height: 70px;
+    opacity: 0.5;
+    left: 149px;
+    bottom: -56px;
+ }
+
+ .wave {
+    background: transparent url('../../assets/sol_wave_bg.svg') 0% 0% no-repeat padding-box;
+    background-size: cover;
+    opacity: 1;
+    margin-top: 80px;
+    padding-left: 140px;
+    padding-right: 50px;
+ }
+ 
+ .features_row {
+    width: 310px;
+    height: 203px;
+    margin: 10px;
+    background: #F9F9F9;
+    box-shadow: 0px 0px 30px #2321321F;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    opacity: 1;
+ }
+
+ 
+ .features_row:hover {
+    color: #FFFFFF;
+    background-color: #663399;
+    opacity: 0.5;
+    
+ }
+
+ .feature_image {
+    background: transparent 0% 0% no-repeat padding-box;
+    margin: 15px 0 0 15px;
+    width: 90px;
+    height: 70px;
+    opacity: 1;
+ }
+
+ .feature_heading { 
+    margin: 0 0 0 10px;
+    font-size: 15px;
+    opacity: 1;
+ }
+
+ .feature_header {
+    margin: 0 0 0 10px;
+    font-size: 15px; 
+    color: #999999;
+    opacity: 1;
+ }
+
+ .features_col_2 {
+    margin-top: 80px;
+ }
+
+ .features_col_3 {
+    margin-top: 200px;
+ }
+ 
+ .info_row_1 {
+    width: 490px;
+    height: 98px;
+    background: transparent url('../../assets/Boost\ your\ business.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+ }
+
+ .info_row_2 {
+    margin: 30px 0 0 -10px;
+    width: 120px;
+    height: 0px;
+    background: transparent url('../../assets/Line\ 3.svg') 0% 0% no-repeat padding-box;
+    border: 6px solid #707070;
+    border-radius: 20px;
+    opacity: 1;
+ }
+
+ .info_row_3 {
+    margin: 30px 0 0 -10px;
+    width: 490px;
+    height: 44px;
+    background: transparent url('../../assets/Get\ your\ hands\ on\ a.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+ }
+
+ .info_row_4 {
+    margin: 40px 0 0 0;
+    width: 198px;
+    height: 50px;
+    text-align: center;
+    letter-spacing: 0px;
+    color: #663399;
+    opacity: 1;
+    box-shadow: 0px 0px 20px #00000033;
+    border: 2px solid #663399;
+    background: transparent;
+    border-radius: 24px;
+    opacity: 1;
+ }
+
+ .info_row_4:hover {
+    color: white;
+    background-color: #663399 ;
+ }
+
+ 
+ .calc_col_1 { 
+    height: 510px;
+    background: #F9F9F9;
+    box-shadow: 0px 0px 30px #2321321F;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    opacity: 1;
+    max-width: 572px;
+    z-index: 50;
+ }
+
+ .calc_col_2 {
+    height: 330px;
+    margin: 80px 0 -0.5px 0;
+    background: #663399;
+    box-shadow: 0px 0px 30px #2321321F;
+    border: 1px solid #FFFFFF;
+    text-align: center;
+    border-radius: 0 25px 25px 0;
+    opacity: 1;
+ }
+
+ .title {
+    text-align: center;
+    background: #E8EBF3;
+    font-size: 22px;
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 12px 12px 0 0 ;
+ }
+
+ .center_form {
+    margin: 25px;
+ }
+
+ .form-range {
+    width: 90%;
+    margin-left: 10px;
+}
+
+.row_gap {
+    margin-bottom: 15px;
+}
+
+.header_text {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.heading_text,::ng-deep input.mat-input-element {
+    margin-top: 4px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.min_text {
+    font-size: small;
+}
+
+.max_text {
+    font-size: 12px;
+    float: right;
+    // padding-left: 204px;
+}
+
+.form-check {
+    margin-left: 10px;
+}
+
+.form-select {
+    margin-left: 10px;
+    margin-right: -10px;
+}
+
+.center_money_form {
+    margin: 80px 0 20px 10px;
+    color: #FFFFFF;
+}
+
+.get_money {
+    width: 140px;
+    margin-left: 10px;
+    min-height: 45px;
+    box-shadow: 0px 0px 20px #00000033;
+    border: 2px solid #663399;
+    border-radius: 24px;
+    background: white;
+    color: #663399;
+    opacity: 1;
+}
+
+.get_money:hover {
+    color: white;
+    background: transparent linear-gradient(90deg, #9F62C9 0%, #663399 100%) 0% 0% no-repeat padding-box;
+}
+
+.dots_2 {
+    position: absolute;
+    // top: 736px;
+    // left: 1058px;
+    right: 144px;
+    bottom: -40px;
+    width: 430px;   
+    height: 70px;
+    background: transparent url('../../assets/accounting_dots.svg') 0% 0% no-repeat padding-box;
+    opacity: 0.5;
+}
+
+.right_slide {
+//    padding-left: 60px;
+    float: right;
+}
+
+.row_gap_mon {
+   margin-bottom: 25px;
+//    margin-left: 11px;
+}
+
+.get-money-container{
+    justify-content: center;
+}
+
+::ng-deep .mat-accent .mat-slider-thumb {
+   background-color: #663399;
+}
+
+::ng-deep .mat-accent .mat-slider-track-fill {
+   background-color: #663399;
+} 
+
+::ng-deep .mat-accent .mat-slider-thumb {
+   background-color: #663399;
+
+}
+
+::ng-deep .mat-accent .mat-slider-thumb::before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    display: block;
+    position: relative;
+    top: 2px;
+    left: 2px;
+    border-radius: 50%;
+    background-color: white;
+    
+ }
+
+::ng-deep .mat-slide-toggle.mat-checked .mat-slide-toggle-thumb {
+   background-color: #F9F9F9;
+}
+
+::ng-deep .mat-slide-toggle.mat-checked .mat-slide-toggle-bar {
+   background-color: #663399;
+}
+
+::ng-deep .mat-form-field-flex {
+   padding: 0px !important;
+   background: #F9F9F9 !important;
+   font-weight: 500 !important;
+}
+
+::ng-deep .mat-slider {
+   height: 36px !important;
+   width: 97%;
+   margin-left: 3px;
+   margin-bottom: -9px !important;
+}
+
+
+@media only screen and (min-width: 800px) and (max-width: 1599px){
+   .calculator-container{
+      position: relative;
+      left: 100px;
+    }
+  
+    .calculator-container > .row{
+        width: 656px;
+    }
+}

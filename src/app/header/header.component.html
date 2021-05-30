@@ -1,0 +1,13 @@
+<header class="sticky-top" [ngClass]="{'navbar-scroll': isScrolled}">
+    <nav class="navbar">
+        <a class="navbar-brand">
+            <img class="logo" src="../assets/logo.png" alt="Logo">
+        </a>
+        <ul class="nav">
+            <li class="nav-item" *ngFor="let navItem of navItems">
+                <a class="nav-link" *ngIf="!navItem.isButton">{{navItem.name}}</a>
+                <button *ngIf="navItem.isButton">{{navItem.name}}</button>
+            </li>
+        </ul>
+    </nav>
+</header>

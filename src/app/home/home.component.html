@@ -1,0 +1,115 @@
+<div class="circle"></div>
+<div class="row mt-63">
+    <div class="col-6" style="position: relative;">
+        <div class="blob"></div>
+        <div class="simple"></div>
+        <div class="line"></div>
+        <div class="shakeHand"></div>
+        <div class="dots"></div>
+    </div>
+    <div class="col-6 calculator-container">
+        <div class="row">
+            <div class="col-8 calc_col_1">
+                <div class="row">
+                    <h4 class="title">Eligibility Calculator</h4>
+                </div>
+                <form>
+                    <div class="center_form">
+                        <div class="row row_gap">
+                            <span class="header_text">Monthly Income</span>
+                            <span class="heading_text">₹ {{slider.value}}</span>
+                            <mat-slider min="{{minValue}}" max="{{maxValue}}" #slider [value]="value"></mat-slider>
+                            <div>
+                                <span class="min_text">₹ {{minValue}}</span>
+                                <span class="max_text">₹ {{maxValue}}</span>
+                            </div>
+                        </div>
+                        <div class="row row_gap">
+                            <span class="header_text">Monthly Expense</span>
+                            <span class="heading_text">₹ {{slider2.value}}</span>
+                            <mat-slider max={{maxValue}} #slider2 [value]="value"></mat-slider>
+                        </div>
+                        <div class="row row_gap">
+                            <span class="header_text">Repayment Tenure</span>
+                            <mat-form-field appearance="fill">
+                                <mat-select [(value)]="selected">
+                                    <mat-option value="option1">6 Months</mat-option>
+                                    <mat-option value="option2">1 Year</mat-option>
+                                    <mat-option value="option3">2 Year</mat-option>
+                                </mat-select>
+                            </mat-form-field>
+                        </div>
+                        <div class="row row_gap" style="margin-bottom: 25px;">
+                            <span class="header_text">Do you have any existings loans?
+                                <span class="right_slide">
+                                    <mat-slide-toggle></mat-slide-toggle>
+                                </span>
+                            </span>
+                        </div>
+                        <div class="row row_gap">
+                            <span class="header_text">EMI of existing loan (optional)</span>
+                            <mat-form-field appearance="legacy">
+                                <input matInput value="₹ 15,000">
+                            </mat-form-field>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-4 calc_col_2">
+                <div class="center_money_form">
+                    <div class="row row_gap_mon">
+                        <span class="header_text">Loan Amount</span>
+                        <span class="heading_text">₹ 1,00,000</span>
+                    </div>
+                    <div class="row row_gap_mon">
+                        <span class="header_text">Your EMI will be</span>
+                        <span class="heading_text">₹ 15,000</span>
+                    </div>
+                    <div class="row get-money-container">
+                        <button class="get_money">Get Money</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row dots_2"></div>
+    </div>
+</div>
+
+<div class="wave">
+    <div class="row">
+        <div class="col-4">
+            <div class="row features_row" *ngFor="let feature of featuresRow1">
+                <div class="row">
+                    <img class="feature_image" src="../assets/{{feature.image}}">
+                </div>
+                <div class="row">
+                    <h4 class="feature_heading">{{feature.heading}}</h4>
+                </div>
+                <div class="row">
+                    <p class="feature_header">{{feature.header}}</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4 features_col_2">
+            <div class="row features_row" *ngFor="let feature of featuresRow2">
+                <div class="row">
+                    <img class="feature_image" src="../assets/{{feature.image}}">
+                </div>
+                <div class="row">
+                    <h4 class="feature_heading">{{feature.heading}}</h4>
+                </div>
+                <div class="row">
+                    <p class="feature_header">{{feature.header}}</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-4 features_col_3">
+            <div *ngFor="let i of [1,2,3]">
+                <div class="row info_row_{{i}}"></div>
+            </div>
+            <div class="row ">
+                <button class="info_row_4">Get an Open Account</button>
+            </div>
+        </div>
+    </div>
+</div>
